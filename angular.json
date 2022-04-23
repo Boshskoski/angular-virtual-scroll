@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-virtual-scroll"
+    }
+  },
+  "defaultProject": "angular-virtual-scroll",
+  "cli": {
+    "analytics": false
+  }
 }

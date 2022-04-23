@@ -1,4 +1,7 @@
-import { Component, VERSION, ChangeDetectorRef } from '@angular/core';
+
+
+
+import { Component, ChangeDetectorRef } from '@angular/core';
 import {
   User,
   ViewportInfo,
@@ -17,12 +20,12 @@ const CONFIGURATION_SETTINGS: ConfigurationSettings = {
 };
 
 @Component({
-  selector: 'my-app',
+  selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  name = 'Angular ' + VERSION.major;
+  title = 'angular-virtual-scroll';
   testData: User[] = [];
   parentViewportInfo: ViewportInfo;
   topPaddingHeight: number = 0;
